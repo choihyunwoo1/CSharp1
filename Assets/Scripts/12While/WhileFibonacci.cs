@@ -7,7 +7,7 @@ public class WhileFibonacci : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //초기식
+     /*   //초기식
         int first = 0, second = 1, i = 0;
 
         while (i < n)  //조건식
@@ -20,7 +20,7 @@ public class WhileFibonacci : MonoBehaviour
 
             //증감식
             i++;
-        }
+        }*/
 
         ////////////////////////////////////////
 
