@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ArrayDemo : MonoBehaviour
 {
-    public int n = 10;
+    public int n = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -10,7 +10,7 @@ public class ArrayDemo : MonoBehaviour
         int[] numbers;
 
         //[2] 배열의 요소수 생성(배열의 크기) - 그릇 갯수 지정,
-        numbers = new int[10]; //0~9번방까지 존재함 , 0~(n-1)번방까지 존재함.
+        numbers = new int[n]; //0~9번방까지 존재함 , 0~(n-1)번방까지 존재함.
 
         //[3] 배열의 초기화
         numbers[0] = 3480; //0번방에 3480이라는 값을 넣겠다. {[]번방에 []값을 넣겠다~}
