@@ -38,7 +38,8 @@ public class FunctionDemo : MonoBehaviour
     반환값이 있는 함수 :
     (데이터 타입) 함수이름 (매개변수)
     {
-        return 변수;
+        //하나 이상의 명령문...
+        return (데이터 타입)변수;
     }
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 //함수구성
