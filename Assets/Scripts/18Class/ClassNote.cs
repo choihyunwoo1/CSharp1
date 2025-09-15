@@ -15,7 +15,7 @@ public class ClassNote : MonoBehaviour
         //[2]. 인스턴스(Instance) 메서드 호출
         //클래스의 객체(개체, instance)생성 - 클래스 변수 선언
 
-        //new 키워드로 새로운 개체 생성 : 
+        //new 키워드로 새로운 개체 생성 : 초기화 과정
         // (클래스 이름) (개체 이름) = new 클래스 이름();
         //   structure   instance
         ClassMember member = new ClassMember();
