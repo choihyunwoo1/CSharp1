@@ -1,0 +1,23 @@
+using UnityEngine;
+
+namespace Property
+{
+    public class PropertyAutomatic : MonoBehaviour
+    {
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
+        {
+            //Truck 클래스의 인스턴스 생성
+            Truck truck1 = new Truck();
+            truck1.Name = "제네시스";
+            Debug.Log(truck1.Name);
+
+            Truck truck2 = new Truck();
+            truck2.Name = "그랜저";
+            truck2.Color = "Red";
+            Debug.Log ($"옆집트럭 이름은 {truck2.Name}이고, 색은 {truck2.Color}이다.");
+
+        }
+    }
+
+}
